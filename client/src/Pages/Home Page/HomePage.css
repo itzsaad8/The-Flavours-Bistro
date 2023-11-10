@@ -1,0 +1,10 @@
+#home-bg{
+    background-image: url(../../Assets/home-bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.height{
+    height: 50vh;
+}
