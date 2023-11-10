@@ -67,23 +67,32 @@ const ContactUs = () => {
               <input className='form-control border-0  border-bottom mt-2 py-2' type="text" />
             </div>
             <div className="col-lg-4 col-sm-12">
-            <span>Email:</span>
+              <span>Email:</span>
               <input className='form-control border-0  border-bottom mt-2 py-2' type="text" />
             </div>
             <div className="col-lg-4 col-sm-12">
-            <span>Phone:</span>
+              <span>Phone:</span>
               <input className='form-control border-0 border-bottom mt-2 py-2' type="text" />
             </div>
           </div>
           <div className="row my-3">
             <div className="col">
-            <span>Message:</span>
+              <span>Message:</span>
               <textarea className='form-control border-0 border-bottom mt-2 py-3' type="text" />
             </div>
           </div>
         </div>
         <div className="button text-center py-3">
-        <button className='btn btn-outline-secondary rounded-0 border-2  fw-bold px-5 py-3'>Send Message</button>
+          <button className='btn btn-outline-secondary rounded-0 border-2  fw-bold px-5 py-3'>Send Message</button>
+        </div>
+      </div>
+
+      {/* Map Section */}
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-12 text-center">
+            <iframe className='text-center' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d155.41981720582396!2d-0.10563745517329526!3d51.44498957803293!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876040e229c83cd%3A0x7ca6a9bc694d3217!2s259%20Norwood%20Rd%2C%20Norwood%2C%20London%20SE24%209AG%2C%20UK!5e0!3m2!1sen!2s!4v1699626258053!5m2!1sen!2s" width="100%" height="360" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
         </div>
       </div>
     </>

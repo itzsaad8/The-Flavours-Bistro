@@ -1,22 +1,50 @@
-#container-fluid{
-    background-image:  url(../../Assets/bg-image.jpg);
-    min-height: 60vh;
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+#container-fluid {
+    background-image: url(../../Assets/bg-image.jpg);
+    min-height: 70vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    filter: brightness(0.7); /* Adjust the brightness value as needed (0.5 for 50% brightness) */
+    /* opacity: 0.80; */
 }
-.custom-height{
+
+.top_gallery_title {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 65px;
+}
+
+.top_gallery_desc,
+.second_gallery_desc {
+    font-family: 'Jost', sans-serif;
+}
+
+.second_gallery_title,
+.gallery_contact_title,
+.gallery_contact_num {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.custom-height {
     min-height: 45vh;
 }
-.custom-image{
+
+.custom-image {
     max-width: 100%;
+    /* width: 325px; */
+    /* height: 330px; */
     cursor: pointer;
-    transition: transform 0.3s ease-out
+    transition: transform 0.3s ease-out;
+    border-radius: 10px;
 }
-.custom-image:hover{
+
+.custom-image:hover {
     transform: scale(1.01);
 
 }
-.contact-height{
+
+.contact-height {
     min-height: 70vh;
 }

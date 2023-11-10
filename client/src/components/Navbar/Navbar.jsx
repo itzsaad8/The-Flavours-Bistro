@@ -1,4 +1,4 @@
-import { React, useState } from 'react'
+import { React, useState , useEffect} from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom';
 
@@ -8,6 +8,25 @@ export default function Navbar() {
     const toggleNav = () => {
         setIsNavActive(!isNavActive);
     };
+
+//     const [scrollY, setScrollY] = useState(0);
+
+//   useEffect(() => {
+//     const handleScroll = () => {
+//       setScrollY(window.scrollY);
+//     };
+
+//     window.addEventListener('scroll', handleScroll);
+
+//     return () => {
+//       window.removeEventListener('scroll', handleScroll);
+//     };
+//   }, []);
+//   const backgroundStyle = {
+//     backgroundColor: scrollY > 20 ? 'white' : 'transparent',
+//     color: scrollY > 20 ? 'black' : 'white',
+//     transition: 'background-color 0.3s ease-in-out',
+//   };
     return (
         <>
         <div className="container-fluid bg-dark">
@@ -27,7 +46,7 @@ export default function Navbar() {
                                 <li><Link className='menu' to="/">Home</Link></li>
                                 <li><Link className='menu' to="/">TAKEAWAY LUNCH & DINNER MENU</Link></li>
                                 <li><Link className='menu' to="/">SELF CATERING FOOD</Link></li>
-                                <li><Link className='menu' to="/">GALLERY</Link></li>
+                                <li><Link className='menu' to="/gallery">GALLERY</Link></li>
                                 <li><Link className='menu' to="/contact">CONTACT US</Link></li>
                             </ul>
                             <div className="bookButton">

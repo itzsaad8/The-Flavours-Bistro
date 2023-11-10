@@ -7,8 +7,8 @@ const SecondSection = ({title,description}) => {
                 <div className="row ">
                     <div className="col">
                         <div className='text-center d-flex flex-column justify-content-center custom-height my-5'>
-                            <h1>{title}</h1>
-                            <p>{description}</p>
+                            <h1 className='second_gallery_title'>{title}</h1>
+                            <p className='second_gallery_desc'>{description}</p>
                         </div>
                     </div>
                 </div>

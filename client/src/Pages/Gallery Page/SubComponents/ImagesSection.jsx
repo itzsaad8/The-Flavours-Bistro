@@ -12,52 +12,52 @@ const ImagesSection = ({image}) => {
                 <div className="container-fluid">
             <div className="row ">
                 <div className="col-sm-12 col-md-4 col-lg-3">
-                {<img src={img1} class="my-2 custom-image"   alt="..." /> }
+                {<img src={img1} class="my-1 custom-image"   alt="..." /> }
                 </div>
                 <div className="col-sm-12 col-md-4 col-lg-3">
-                {<img src={img2} class="my-2 custom-image"   alt="..." /> }
+                {<img src={img2} class="my-1 custom-image"   alt="..." /> }
                 </div>
                 <div className="col-sm-12 col-md-4 col-lg-3">
-                {<img src={img5} class="my-2 custom-image"   alt="..." /> }
+                {<img src={img5} class="my-1 custom-image"   alt="..." /> }
                 </div>
                 <div className="col-sm-12 col-md-4 col-lg-3">
-                {<img src={img4} class="my-2 custom-image"   alt="..." /> }
+                {<img src={img4} class="my-1 custom-image"   alt="..." /> }
                 </div>
                 <div className="col-sm-12 col-md-4 col-lg-3">
-                {<img src={img5} class="my-2 custom-image"   alt="..." /> }
+                {<img src={img5} class="my-1 custom-image"   alt="..." /> }
                 </div>
                 <div className="col-sm-12 col-md-4 col-lg-3">
-                {<img src={img6} class="my-2 custom-image"   alt="..." /> }
+                {<img src={img6} class="my-1 custom-image"   alt="..." /> }
                 </div>
                 <div className="col-sm-12 col-md-4 col-lg-3">
-                {<img src={img2} class="my-2 custom-image"  alt="..." /> }
+                {<img src={img2} class="my-1 custom-image"  alt="..." /> }
                 </div>
                 <div className="col-sm-12 col-md-4 col-lg-3">
-                {<img src={img5} class="my-2 custom-image"   alt="..." /> }
+                {<img src={img5} class="my-1 custom-image"   alt="..." /> }
                 </div>
                 <div className="col-sm-12 col-md-4 col-lg-3">
-                {<img src={img1} class="my-2 custom-image"   alt="..." /> }
+                {<img src={img1} class="my-1 custom-image"   alt="..." /> }
                 </div>
                 <div className="col-sm-12 col-md-4 col-lg-3">
-                {<img src={img2} class="my-2 custom-image"   alt="..." /> }
+                {<img src={img2} class="my-1 custom-image"   alt="..." /> }
                 </div>
                 <div className="col-sm-12 col-md-4 col-lg-3">
-                {<img src={img6} class="my-2 custom-image"   alt="..." /> }
+                {<img src={img6} class="my-1 custom-image"   alt="..." /> }
                 </div>
                 <div className="col-sm-12 col-md-4 col-lg-3">
-                {<img src={img4} class="my-2 custom-image"  alt="..." /> }
+                {<img src={img4} class="my-1 custom-image"  alt="..." /> }
                 </div>
                 <div className="col-sm-12 col-md-4 col-lg-3">
-                {<img src={img5} class="my-2 custom-image"   alt="..." /> }
+                {<img src={img5} class="my-1 custom-image"   alt="..." /> }
                 </div>
                 <div className="col-sm-12 col-md-4 col-lg-3">
-                {<img src={img6} class="my-2 custom-image"   alt="..." /> }
+                {<img src={img6} class="my-1 custom-image"   alt="..." /> }
                 </div>
                 <div className="col-sm-12 col-md-4 col-lg-3">
-                {<img src={img2} class="my-2 custom-image"  alt="..." /> }
+                {<img src={img2} class="my-1 custom-image"  alt="..." /> }
                 </div>
                 <div className="col-sm-12 col-md-4 col-lg-3">
-                {<img src={img5} class="my-2 custom-image"   alt="..." /> }
+                {<img src={img5} class="my-1 custom-image"   alt="..." /> }
                 </div>
             </div>
             </div>
