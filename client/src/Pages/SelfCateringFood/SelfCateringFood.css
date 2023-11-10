@@ -1,0 +1,153 @@
+.hero-sec{
+    background:rgba(156, 157, 159, 0.767) url('../../asset/SelfCatFood/food-bg.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color-burn;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.custom-h{
+    font-family: "Shadows Into Light";
+    font-size: 65px;
+    line-height: 98px;
+}
+.para{
+    font-family: 'Jost';
+    font-size: 17px;
+    font-weight: 400;
+}
+.custom-btn{
+    font-family: 'Jost';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 22px 115px;
+    color: black;
+    background-color: white;
+    border: 2px solid gray;
+}
+.custom-btn:hover{
+  color: white;
+  background-color: black;
+}
+.custom-post1{
+    width: 85%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.post1-img{
+    height: 95vh;
+     width: 100%; 
+
+
+}
+.post1-heading{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 53px;
+    font-size: 35px;
+    color: #343b45;
+}
+.post1-para{
+    font-family: 'Jost';
+    font-size: 17px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    color: #494949;
+}
+.post1-btn{
+    
+    /* width: 180px; */
+    margin-right: auto;
+    font-family: 'Jost';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 45px;
+    color: black;
+    background-color: white;
+    border: 2px solid gray;
+}
+.post1-btn:hover{
+    color: white;
+    background-color: rgb(98, 125, 100);
+}
+.heading-form-cat{
+    font-family: 'Oswald';
+    font-size: 35px;
+    line-height: 53px;
+    font-style: normal;
+    font-weight: 400;
+    color: #343b45;
+    margin: 5px 0;
+    padding: 10px 0;
+}
+
+@media (max-width:599px) {
+    .custom-post1{
+        /* display: block; */
+        /* flex-direction: column; */
+        margin-left: 30px;
+        padding: 0 0;
+        margin-top: 3px;
+    }
+    .post1-img{
+        height: 50vh;
+        width: 98%;
+        margin-left: 30px;
+    }
+    .post1-btn{
+        margin-top: 3px;
+        width: 100%;
+        padding: 5px 25px;
+        font-size: 10px;
+
+    }
+    .custom-h{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .custom-btn{
+        font-size: 8px;
+        padding: 11px 50px;
+    }
+    .para{
+        font-size: 12px;
+    }
+    .post1-heading{
+        
+       
+        line-height: 25px;
+        font-size: 16px;
+    }
+    .post1-para{
+        
+       
+        line-height: 13px;
+        font-size: 10px;
+    }
+    .heading-form-cat{
+        font-size: 15px;
+        line-height: 15px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+
+    }
+    .button-last{
+        padding: 8px 5px;
+        
+    }
+
+    
+  }

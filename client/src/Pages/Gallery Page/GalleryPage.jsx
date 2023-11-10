@@ -3,7 +3,6 @@ import './GalleryPage.css'
 import TopSection from './SubComponents/TopSection'
 import SecondSection from './SubComponents/SecondSection'
 import ImagesSection from './SubComponents/ImagesSection'
-import ContactSection from './SubComponents/ContactSection'
 
 
 const GalleryPage = () => {

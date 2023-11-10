@@ -45,7 +45,8 @@ export default function Navbar() {
                             <ul className={`nav-links ${isNavActive ? 'active' : ''}`} id="nav-links">
                                 <li><Link className='menu' to="/">Home</Link></li>
                                 <li><Link className='menu' to="/">TAKEAWAY LUNCH & DINNER MENU</Link></li>
-                                <li><Link className='menu' to="/">SELF CATERING FOOD</Link></li>
+                                <li><Link className='menu' to="/selfcatfood">SELF CATERING FOOD</Link></li>
+
                                 <li><Link className='menu' to="/gallery">GALLERY</Link></li>
                                 <li><Link className='menu' to="/contact">CONTACT US</Link></li>
                             </ul>
