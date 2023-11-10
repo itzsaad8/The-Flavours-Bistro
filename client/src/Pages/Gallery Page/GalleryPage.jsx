@@ -3,7 +3,7 @@ import './GalleryPage.css'
 import TopSection from './SubComponents/TopSection'
 import SecondSection from './SubComponents/SecondSection'
 import ImagesSection from './SubComponents/ImagesSection'
- 
+
 
 const GalleryPage = () => {
     return (
@@ -16,6 +16,10 @@ const GalleryPage = () => {
                 description={"If you fancy a night off from cooking, we are the perfect choice for something hearty and delicious that is sure to leave you satisfied. We have a varied menu that changes frequently, so to find out what we have to offer, don't hesitate to give us a call, we look forward to hearing from you."}
             />
             <ImagesSection/>
+
+            <ContactSection title={"Contact Us"} 
+                            phoneNum={"+92123456789"}
+             />
 
 
             

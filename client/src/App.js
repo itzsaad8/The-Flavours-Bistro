@@ -8,7 +8,7 @@ import HomePage from "./Pages/Home Page/HomePage";
 import GalleryPage from "./Pages/Gallery Page/GalleryPage";
 
 import Navbar from "./components/Navbar/Navbar";
-import SelfCateringFood from "./Pages/SelfCateringFood/SelfCateringFood";
+
 
 
 
@@ -27,6 +27,7 @@ function App() {
         <Route path="/selfcatfood" element={<SelfCateringFood/>} />
         {/* <Route path="*" element={<NoPage />} /> */}
       </Routes>
+      <Footer/>
     </BrowserRouter>
 
     </>
