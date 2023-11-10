@@ -64,21 +64,21 @@ const ContactUs = () => {
           <div className="row">
             <div className="col-lg-4 col-sm-12">
               <span>Name:</span>
-              <input className='form-control border-0  border-bottom mt-2 py-2' type="text" />
+              <input className='form-control border-0  border-bottom mt-2 border-1 border-dark rounded-0 py-2' type="text" />
             </div>
             <div className="col-lg-4 col-sm-12">
               <span>Email:</span>
-              <input className='form-control border-0  border-bottom mt-2 py-2' type="text" />
+              <input className='form-control border-0  border-bottom mt-2 border-1 border-dark py-2 rounded-0' type="text" />
             </div>
             <div className="col-lg-4 col-sm-12">
               <span>Phone:</span>
-              <input className='form-control border-0 border-bottom mt-2 py-2' type="text" />
+              <input className='form-control border-0 border-bottom mt-2 border-1 border-dark py-2 rounded-0' type="text" />
             </div>
           </div>
           <div className="row my-3">
             <div className="col">
               <span>Message:</span>
-              <textarea className='form-control border-0 border-bottom mt-2 py-3' type="text" />
+              <textarea className='form-control border-0 border-bottom mt-2 border-1 border-dark py-3 rounded-0' type="text" />
             </div>
           </div>
         </div>
