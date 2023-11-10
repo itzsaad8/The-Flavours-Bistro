@@ -7,7 +7,7 @@ const TopSection = ({title,description}) => {
                 <div className='container '>
                     <div className="row">
                         <div className="col">
-                            <div className='text-white text-center   custom-center'>
+                            <div className='text-white text-center my-5  custom-center'>
                                 <h1>{title}</h1>
                                 <p>{description}</p>
                             </div>
