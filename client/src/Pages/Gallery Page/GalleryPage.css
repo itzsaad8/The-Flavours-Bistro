@@ -11,3 +11,15 @@
 .custom-height{
     min-height: 45vh;
 }
+.custom-image{
+    max-width: 100%;
+    cursor: pointer;
+    transition: transform 0.3s ease-out
+}
+.custom-image:hover{
+    transform: scale(1.01);
+
+}
+.contact-height{
+    min-height: 70vh;
+}
