@@ -8,6 +8,7 @@ import ContactUs from './Pages/Contact Us/ContactUs';
 import HomePage from "./Pages/Home Page/HomePage";
 import GalleryPage from "./Pages/Gallery Page/GalleryPage";
 import SelfCateringFood from "./Pages/SelfCateringFood/SelfCateringFood";
+import TakeAway from "./Pages/TakeAway/TakeAway";
 
 // Components
 import Navbar from "./components/Navbar/Navbar";
@@ -28,6 +29,7 @@ function App() {
         <Route path="/" exact element={<HomePage />}  />
         <Route path="/contact" element={  <ContactUs/>} />
         <Route path="/gallery" element={ <GalleryPage/> } />
+        <Route path="/takeaway" element={<TakeAway/>} />
         <Route path="/selfcatfood" element={<SelfCateringFood/>} />
         {/* <Route path="*" element={<NoPage />} /> */}
       </Routes>
