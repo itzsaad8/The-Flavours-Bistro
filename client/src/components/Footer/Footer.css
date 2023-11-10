@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+footer{
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    width: 100%;
+    background-color: rgb(128,141,116);
+    /* position: relative;
+    bottom: 0%; */
+}
+footer p{
+    font-size: 13px;
+    font-family: 'Oswald', sans-serif;
+
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px 0;
+ }
+ .footer_icons{
+    font-size: 20px;
+    color: #808e7d;
+ }
+ .footer_icon{
+    background-color: white;
+    border-radius: 100%;
+    padding: 3px 8px 6px;
+    margin: 7px 6px;
+ }
+ .payment_line{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+ }
+ .payment_line .payments{
+    padding: 15px 28px;
+    /* background-color: azure; */
+    margin: 1px;
+ }
+ .payment_line .payments:nth-child(odd){
+background-color: burlywood;
+ }
+ .payment_line .payments:nth-child(even){
+background-color: ivory;
+ }
+ .payment_line2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+ }
+ .payment_line2 .payments{
+    padding: 15px 28px;
+    /* background-color: azure; */
+    margin: 1px;
+ }
+ .payment_line2 .payments:nth-child(odd){
+background-color: ivory;
+ }
+ .payment_line2 .payments:nth-child(even){
+background-color: burlywood;
+ }
+
+
+
+ @media(max-width: 768px){
+    .footer_heading{
+        margin-top: 20px;
+    }
+
+    .payment_line{
+        flex-direction: column;
+    }
+    .payment_line2{
+        flex-direction: column;
+    }
+    .payment_line2 .payments:nth-child(odd){
+        background-color: burlywood;
+         }
+    .payment_line2 .payments:nth-child(even){
+        background-color: ivory;
+         }
+ }

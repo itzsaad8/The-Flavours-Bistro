@@ -8,6 +8,7 @@ import HomePage from "./Pages/Home Page/HomePage";
 import GalleryPage from "./Pages/Gallery Page/GalleryPage";
 
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/gallery" element={ <GalleryPage/> } />
         {/* <Route path="*" element={<NoPage />} /> */}
       </Routes>
+      <Footer/>
     </BrowserRouter>
 
     </>
