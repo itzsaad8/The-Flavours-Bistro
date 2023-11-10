@@ -3,6 +3,7 @@ import './GalleryPage.css'
 import TopSection from './SubComponents/TopSection'
 import SecondSection from './SubComponents/SecondSection'
 import ImagesSection from './SubComponents/ImagesSection'
+import ContactSection from './SubComponents/ContactSection'
 
 
 const GalleryPage = () => {
@@ -20,6 +21,8 @@ const GalleryPage = () => {
             <ContactSection title={"Contact Us"} 
                             phoneNum={"07975 553654"}
              />
+
+            
 
 
             

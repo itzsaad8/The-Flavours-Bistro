@@ -2,12 +2,16 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
+
+// Pages
 import ContactUs from './Pages/Contact Us/ContactUs';
 import HomePage from "./Pages/Home Page/HomePage";
-
 import GalleryPage from "./Pages/Gallery Page/GalleryPage";
+import SelfCateringFood from "./Pages/SelfCateringFood/SelfCateringFood";
 
+// Components
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 
 

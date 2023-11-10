@@ -112,3 +112,43 @@
         transition: .4s;
       }
 }
+
+@media (max-width: 1024px){
+    .nav-links li {
+        margin: 0 5px;
+        font-size: 14px;
+        margin-top: 15px;
+        color: white;
+    }
+    .logo a {
+        font-size: 17px;
+        margin-right: 8px;
+        /* Add some space between logo and menu */
+    
+    }
+}
+
+@media (max-width: 991px){
+    .logo a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 15px;
+        margin-right: 5px;
+        /* Add some space between logo and menu */
+    
+    }
+    .nav-links li {
+        margin: 0 6px;
+        font-size: 2px;
+        margin-top: 15px;
+        color: white;
+    }
+    .bookButton .text-white{
+        text-decoration: none;
+        border: 2px solid white;
+        padding: 14px 28px;
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+}
