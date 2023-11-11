@@ -8,3 +8,144 @@
 .height{
     height: 50vh;
 }
+.home-text{
+    font-family: "Shadows Into Light";
+    font-size: 65px;
+    line-height: 98px;
+}
+.section-1{
+    background-color: #808D74;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+.section-2-img img{
+    width: 430px;
+    height: 400px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;    
+}
+.section-2-img img:hover{
+    transform: scale(1.02); 
+}
+.section-3{
+    font-family: 'Jost';
+    overflow: hidden;
+}
+.section-3 h2{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 53px;
+    font-size: 35px;
+    color: #343b45;
+}
+.section-3 p{
+    line-height:19.55px;
+letter-spacing:normal;
+}
+.section-3-btn{
+    font-family: 'Jost';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 40px;
+    color: black;
+    background-color: white;
+    border: 2px solid gray;
+    margin-top: 30px;
+}
+.section-3-btn:hover{
+  color: white;
+  background-color: #808D74;
+}
+.section-4{
+    background-color: #808D74;
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
+}
+.section-4 img{
+    width: 190px;
+    height: 300px;
+    
+}
+.section-6{
+    background-color: #808D74;
+    height: 200px;
+    width: 100%;
+}
+.section-10 h3{
+    font-family: 'Oswald';
+    
+}
+.col-6 p{
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 17px;
+    color: #494949;
+}
+.smooth-line {
+    border: 0;
+    height: 1px;
+    background: #000; /* Black color */
+    margin: 20px 0; /* Adjust margin as needed */
+  }
+
+  .contact h2{
+    font-family: 'Oswald';
+  }
+  .fixed-icons {
+    position: fixed;
+    right: 0;
+    top: 50%; /* Adjust the vertical position as needed */
+    transform: translateY(-50%);
+    
+  }
+
+  .fixed-icons i {
+    position: relative;
+    font-size: 24px; 
+    margin-bottom: 10px; 
+    background-color: #313030;
+    color: white;
+    padding: 10px 10px;
+  }
+
+  @media (max-width: 768px){
+    .home-text{
+        font-family: "Shadows Into Light";
+        font-size: 35px;
+        line-height: 98px;
+    }
+    .section-2-img{
+        margin-top: 10px;
+        
+
+    }
+    .section-2-img img{
+        width: 330px;
+    height: 300px;
+    }
+    .section-3 h2{
+        font-size: 25px;
+    }
+    .col-sm-6 img{
+        width: 360px;
+        height: auto;
+        
+    }
+    .section-4 img{
+        width: 150px;
+        height: 150px;
+        
+    }
+    .fixed-icons{
+        display: none;
+    }
+    .fixed-icons i{
+        display: none;
+    }
+  }

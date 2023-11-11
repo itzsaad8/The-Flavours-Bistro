@@ -18,6 +18,10 @@
     /* Add some space between logo and menu */
 
 }
+.logo-image{
+    width: auto;
+    height: 100px;
+}
 
 .nav-links {
     list-style: none;
