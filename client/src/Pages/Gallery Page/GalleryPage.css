@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 #container-fluid {
-    background-image: url(../../Assets/bg-image.jpg);
+    background:rgba(255, 253, 253, 0.187) url(../../Assets/bg-image.jpg);
     min-height: 70vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    filter: brightness(0.7); /* Adjust the brightness value as needed (0.5 for 50% brightness) */
-    /* opacity: 0.80; */
+    background-blend-mode: color-burn;
+
 }
 
 .top_gallery_title {
@@ -47,4 +47,30 @@
 
 .contact-height {
     min-height: 70vh;
+}
+@media (max-width:768px) {
+    .top_gallery_title{
+        font-size: 33px;
+    }
+    .contact-c{
+        
+        display: flex;
+        justify-content: center;
+        margin: 3px 0;
+        
+        
+    }
+    .gallery_contact_title{
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+        border-bottom: 2px solid gray;
+    }
+    .gallery_contact_num {
+        font-size: 16px;
+        margin: 0;
+        padding-left: 8px;
+        border-bottom: 2px solid gray;
+    }
+    
 }

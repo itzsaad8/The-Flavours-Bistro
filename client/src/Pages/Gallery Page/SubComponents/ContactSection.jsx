@@ -6,7 +6,7 @@ const ContactSection = ({ title, phoneNum }) => {
             <div className="container contact-height">
                 <div className="row my-5">
                     <div className="col">
-                        <div className='text-center mt-5'>
+                        <div className='contact-c text-center mt-5'>
                             <h1 className='gallery_contact_title'>{title}</h1>
                             <h1 className='gallery_contact_num'>{phoneNum}</h1>
                         </div>

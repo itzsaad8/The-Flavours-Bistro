@@ -72,9 +72,14 @@ letter-spacing:normal;
     padding: 80px 0px;
 }
 .section-4 img{
-    width: 190px;
+    width: 150px;
     height: 300px;
     
+}
+.section-4 img:hover{
+   
+    padding: 0;
+    border: 2px solid rgb(255, 255, 255);
 }
 .section-6{
     background-color: #808D74;
@@ -142,8 +147,9 @@ letter-spacing:normal;
         
     }
     .section-4 img{
-        width: 150px;
+        width: 170px;
         height: 150px;
+        margin: 4px 0;
         
     }
     .fixed-icons{
