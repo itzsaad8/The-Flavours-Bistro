@@ -105,6 +105,9 @@
     .bookButton{
         display: none;
     }
+    .logo-image{
+        height: 50px;
+    }
     .overlay {
         position: fixed;
         top: 0;

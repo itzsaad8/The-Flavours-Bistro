@@ -71,26 +71,27 @@ const SelfCateringFood = () => {
                     <div className="row">
                         <div className="col-lg-4 col-sm-12">
                             <span>Name:</span>
-                            <input className='form-control border-0  border-bottom mt-2 py-2' type="text" />
+                            <input className='form-control border-0 rounded-0  border-bottom border-1 border-dark mt-2 py-2' type="text" />
+                            
                         </div>
                         <div className="col-lg-4 col-sm-12">
                             <span>Email:</span>
-                            <input className='form-control border-0  border-bottom mt-2 py-2' type="text" />
+                            <input className='form-control border-0 rounded-0  border-bottom border-1 border-dark mt-2 py-2' type="text" />
                         </div>
                         <div className="col-lg-4 col-sm-12">
                             <span>Phone:</span>
-                            <input className='form-control border-0 border-bottom mt-2 py-2' type="text" />
+                            <input className='form-control border-0 rounded-0 border-bottom border-1 border-dark mt-2 py-2' type="text" />
                         </div>
                     </div>
                     <div className="row my-3">
                         <div className="col">
                             <span>Message:</span>
-                            <textarea className='form-control border-0 border-bottom mt-2 py-3' type="text" />
+                            <textarea className='form-control border-0 rounded-0 border-bottom border-1 border-dark mt-2 py-3' type="text" />
                         </div>
                     </div>
                 </div>
                 <div className="button text-center py-3">
-                    <button className='btn btn-outline-secondary rounded-0 border-2  fw-bold px-5 py-3'>Send Message</button>
+                    <button className='btn btn-outline-secondary rounded-0  border-2 border-dark  fw-bold px-5 py-3'>Send Message</button>
                 </div>
             </div>
 
