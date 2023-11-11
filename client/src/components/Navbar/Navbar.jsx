@@ -87,9 +87,9 @@ export default function Navbar() {
                                     <div className={` ${scrollClass4}`}></div>
                                 </div>
                                 <ul className={`nav-links ${isNavActive ? 'active' : ''} `} id="nav-links">
-                                    <li><Link className={`${scrollClass2}`} test to="/">Home</Link></li>
-                                    <li><Link className={`${scrollClass2}`} to="/takeaway">TAKEAWAY LUNCH & DINNER MENU</Link></li>
-                                    <li><Link className={`${scrollClass2}`} to="/selfcatfood">SELF CATERING FOOD</Link></li>
+                                    <li><Link className={`${scrollClass2}`} test to="/">HOME</Link></li>
+                                    <li><Link className={`${scrollClass2}`} to="/takeaway">ABOUT US</Link></li>
+                                    <li><Link className={`${scrollClass2}`} to="/selfcatfood">MENUS</Link></li>
 
                                     <li><Link className={`${scrollClass2}`} to="/gallery">GALLERY</Link></li>
                                     <li><Link className={`${scrollClass2}`} to="/contact">CONTACT US</Link></li>
