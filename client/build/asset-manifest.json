@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/The-Flavours-Bistro/static/css/main.8192bfc4.css",
+    "main.js": "/The-Flavours-Bistro/static/js/main.ee45584a.js",
+    "static/js/787.d5fa4d18.chunk.js": "/The-Flavours-Bistro/static/js/787.d5fa4d18.chunk.js",
+    "static/media/home-bg.jpg": "/The-Flavours-Bistro/static/media/home-bg.bd408f3de2381ea645fe.jpg",
+    "static/media/bg-image.jpg": "/The-Flavours-Bistro/static/media/bg-image.07e29b58c60122d7146c.jpg",
+    "static/media/food-bg.avif": "/The-Flavours-Bistro/static/media/food-bg.b5f2a38b8358c5fc2f5e.avif",
+    "static/media/post1.avif": "/The-Flavours-Bistro/static/media/post1.a5c3080e3d972938070b.avif",
+    "static/media/img5.webp": "/The-Flavours-Bistro/static/media/img5.3aa847ee317d8ed57cdd.webp",
+    "static/media/img4.webp": "/The-Flavours-Bistro/static/media/img4.635e1c0f014a78682749.webp",
+    "static/media/img6.webp": "/The-Flavours-Bistro/static/media/img6.7516dccc813930e85289.webp",
+    "static/media/contact-det.webp": "/The-Flavours-Bistro/static/media/contact-det.ef57e83d5f796e5e72e3.webp",
+    "static/media/img2.webp": "/The-Flavours-Bistro/static/media/img2.f782d2afe27f21abab57.webp",
+    "static/media/img1.webp": "/The-Flavours-Bistro/static/media/img1.9a7f717efadcb6c05284.webp",
+    "index.html": "/The-Flavours-Bistro/index.html",
+    "main.8192bfc4.css.map": "/The-Flavours-Bistro/static/css/main.8192bfc4.css.map",
+    "main.ee45584a.js.map": "/The-Flavours-Bistro/static/js/main.ee45584a.js.map",
+    "787.d5fa4d18.chunk.js.map": "/The-Flavours-Bistro/static/js/787.d5fa4d18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8192bfc4.css",
+    "static/js/main.ee45584a.js"
+  ]
+}
