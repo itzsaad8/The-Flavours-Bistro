@@ -56,7 +56,7 @@ const TakeAway = () => {
 
 
 
-We don't just offer boxed lunches though, if you're interested in something lighter, we offer gourmet grilled sandwiches, bao buns, delicious sides, sweet treats and much more!</p>
+                                    We don't just offer boxed lunches though, if you're interested in something lighter, we offer gourmet grilled sandwiches, bao buns, delicious sides, sweet treats and much more!</p>
                                 <button className='btn btn-outline-secondary  rounded-0 post1-btn'>BOOK NOW</button>
                             </div>
                         </div>
@@ -70,34 +70,38 @@ We don't just offer boxed lunches though, if you're interested in something ligh
             <div className="contact-form my-5 py-5 d-flex flex-column align-items-center justify-content-center">
                 <div className="container">
                     <div className="heading-form-cat text-center">
-                        <p className=''>CONTACT US</p>
-                        <p className=''>07975 553654</p>
+                    <p className=''>CONTACT US</p>
+                    <p className=''>07975 553654</p>
                     </div>
                     <div className="row">
                         <div className="col-lg-4 col-sm-12">
                             <span>Name:</span>
-                            <input className='form-control border-0  border-bottom mt-2 py-2' type="text" />
+                            <input className='form-control border-0 rounded-0  border-bottom border-1 border-dark mt-2 py-2' type="text" />
+                            
                         </div>
                         <div className="col-lg-4 col-sm-12">
                             <span>Email:</span>
-                            <input className='form-control border-0  border-bottom mt-2 py-2' type="text" />
+                            <input className='form-control border-0 rounded-0  border-bottom border-1 border-dark mt-2 py-2' type="text" />
                         </div>
                         <div className="col-lg-4 col-sm-12">
                             <span>Phone:</span>
-                            <input className='form-control border-0 border-bottom mt-2 py-2' type="text" />
+                            <input className='form-control border-0 rounded-0 border-bottom border-1 border-dark mt-2 py-2' type="text" />
                         </div>
                     </div>
                     <div className="row my-3">
                         <div className="col">
                             <span>Message:</span>
-                            <textarea className='form-control border-0 border-bottom mt-2 py-3' type="text" />
+                            <textarea className='form-control border-0 rounded-0 border-bottom border-1 border-dark mt-2 py-3' type="text" />
                         </div>
                     </div>
                 </div>
                 <div className="button text-center py-3">
                     <button className='btn btn-outline-secondary rounded-0 border-2  fw-bold px-5 py-3'>Send Message</button>
                 </div>
+
             </div>
+
+            
 
 
 
