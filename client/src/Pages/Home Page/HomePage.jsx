@@ -18,23 +18,23 @@ export default function HomePage() {
       <HomeSecondSection />
 
       <div className="conatiner-fluid section-1">
-        <h2>#EXCITETHEAPPETITE</h2>
+        <h2 className='section_1_title'>#EXCITETHEAPPETITE</h2>
       </div>
-      <div class="fixed-icons d-flex flex-column">
+      {/* <div class="fixed-icons d-flex flex-column">
     <i><BiMobile/></i>
     <i><MdEmail /></i>
     <i><MdLocationOn /></i>
-  </div>
+  </div> */}
 
       <div className="section-2 container-fluid mt-3 ">
         <div className="row d-flex justify-content-center">
-          <div className="col-lg-4 col-11 section-2-img">
+          <div className="col-lg-4 col-md-4 col-11 section-2-img">
             <img src={img5} alt="" />
           </div>
-          <div className="col-lg-4 col-11 section-2-img">
+          <div className="col-lg-4 col-md-4 col-11 section-2-img">
             <img src={img2} alt="" />
           </div>
-          <div className="col-lg-4 col-11  section-2-img">
+          <div className="col-lg-4 col-md-4 col-11  section-2-img">
             <img src={img3} alt="" />
           </div>
         </div>

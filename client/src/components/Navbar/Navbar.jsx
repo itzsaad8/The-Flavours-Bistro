@@ -5,20 +5,24 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
     const [isNavActive, setIsNavActive] = useState(false);
     const [scrollClass,setScrollClass] = useState('bg-dark');
-    // const [scrollClass2,setScrollClass2] = useState('text-white');
+    const [scrollClass2,setScrollClass2] = useState('menu');
+    const [scrollClass3,setScrollClass3] = useState('bookNow');
     const toggleNav = () => {
         setIsNavActive(!isNavActive);
         
     };
    
     window.addEventListener('scroll',()=>{
-        if(window.scrollY>30){
-              setScrollClass('bg-light');
-            //   setScrollClass2('text-black');
+        if(window.scrollY > 30){
+              setScrollClass('bg-white');
+              setScrollClass2('menu2');
+              setScrollClass3('bookNow2')
               
         }
         else{
             setScrollClass("bg-dark")
+            setScrollClass2('menu');
+            setScrollClass3('bookNow')
         }
     })
     //     const [scrollY, setScrollY] = useState(0);
@@ -39,6 +43,29 @@ export default function Navbar() {
     //     color: scrollY > 20 ? 'black' : 'white',
     //     transition: 'background-color 0.3s ease-in-out',
     //   };
+
+    useEffect(() => {
+        const handleScroll = () => {
+          const navbar = document.querySelector('.navbar');
+          
+          if (navbar) {
+            if (window.scrollY > 30) {
+              navbar.classList.add('sticky');
+            } else {
+              navbar.classList.remove('sticky');
+            }
+          }
+        };
+    
+        window.addEventListener('scroll', handleScroll);
+    
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+      }, []); // Add an empty dependency array to ensure the effect runs only once
+    
+    
+
     return (
         <>
             <div className={`container-fluid   ${scrollClass} `}>
@@ -57,15 +84,15 @@ export default function Navbar() {
                                     <div className="bar"></div>
                                 </div>
                                 <ul className={`nav-links ${isNavActive ? 'active' : ''} `} id="nav-links">
-                                    <li><Link className='menu ' to="/">Home</Link></li>
-                                    <li><Link className='menu' to="/takeaway">TAKEAWAY LUNCH & DINNER MENU</Link></li>
-                                    <li><Link className='menu' to="/selfcatfood">SELF CATERING FOOD</Link></li>
+                                    <li><Link className={`${scrollClass2}`} test to="/">Home</Link></li>
+                                    <li><Link className={`${scrollClass2}`} to="/takeaway">TAKEAWAY LUNCH & DINNER MENU</Link></li>
+                                    <li><Link className={`${scrollClass2}`} to="/selfcatfood">SELF CATERING FOOD</Link></li>
 
-                                    <li><Link className='menu' to="/gallery">GALLERY</Link></li>
-                                    <li><Link className='menu' to="/contact">CONTACT US</Link></li>
+                                    <li><Link className={`${scrollClass2}`} to="/gallery">GALLERY</Link></li>
+                                    <li><Link className={`${scrollClass2}`} to="/contact">CONTACT US</Link></li>
                                 </ul>
                                 <div className="bookButton">
-                                    <Link to="/" className='text-white'> BOOK NOW</Link>
+                                    <Link to="/" className={`${scrollClass3}`}> BOOK NOW</Link>
                                 </div>
                                 {isNavActive && <div className="overlay" onClick={toggleNav}></div>}
                             </nav>
