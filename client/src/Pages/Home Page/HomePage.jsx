@@ -8,7 +8,7 @@ import img3 from '../../Assets/img4.webp'
 import { BiLogoFacebook,BiMobile } from "react-icons/bi";
 import { BiLogoInstagram } from "react-icons/bi";
 import { BsShop } from "react-icons/bs";
-import { MdEmail , MdLocationOn} from "react-icons/md";
+// import { MdEmail , MdLocationOn} from "react-icons/md";
 
 
 export default function HomePage() {
@@ -142,21 +142,21 @@ export default function HomePage() {
       <div className="section-10 pt-5 bg-light pb-5">
         <div className="container pt-5 pb-5">
           <div className="row">
-            <div className="col-sm-6 order-lg-0 order-1">
+            <div className="col-sm-6 order-lg-0 order-1 chef_img">
               <img src="https://lirp.cdn-website.com/f85a9b25/dms3rep/multi/opt/hr1-660w.jpg" alt="" height='500px'/>
             </div>
             <div className="col-sm-6 mt-5 order-lg-1 order-0">
               <h3>THE TEAM</h3>
               <div className="row mt-5">
                 <div className="col-6">
-                  <h6 className='fw-bold'>Ben Gobbi</h6>
+                  <h6 className='fw-bold'>Mr. Adrian Venoin</h6>
                   <h6 className='fst-italic opacity-75'>Chef Owner</h6>
-                  <p>I have worked as a chef in Pembrokeshire for the past 20 years. This experience has allowed me to to develop my own culinary venture as The Box By Ben Gobbi.</p>
+                  <p>I have worked as a chef for the past 20 years. This experience has allowed me to to develop my own culinary venture as The Flavours Bistro.</p>
                 </div>
                 <div className="col-6">
-                  <h6 className='fw-bold'>Eleanor Gobbi</h6>
+                  <h6 className='fw-bold'>Mrs. Adrian Venoin</h6>
                   <h6 className='fst-italic opacity-75'>Co-Owner</h6>
-                 <p>I play an integral role to the front of house for the The Box By Ben Gobbi. Whilst undertaking the overall management of the business with my husband.</p>
+                 <p>I play an integral role to the front of house for the The Flavours Bistro. Whilst undertaking the overall management of the business with my husband.</p>
                 </div>
                 
               </div>
@@ -172,7 +172,7 @@ export default function HomePage() {
       <div className="contact-form my-5 py-5 d-flex flex-column align-items-center justify-content-center">
         <div className="container contact">
           <h2 className='text-center'>Contact Us</h2>
-          <h2 className='text-center mt-3'>07975 553654</h2>
+          <h2 className='text-center mt-3'>01416 11531</h2>
           <p className='text-center'>If you’d like to place an order with us or even if you have any queries please give us a call or drop us a message. We look forward We look forward to hearing from you.</p>
           <div className="row mt-5">
             <div className="col-lg-4 col-sm-12">

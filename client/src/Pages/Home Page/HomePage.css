@@ -152,4 +152,10 @@ letter-spacing:normal;
     .fixed-icons i{
         display: none;
     }
+    .chef_img img{
+        display: none;
+    }
+    .home_mobile_para{
+        display: none;
+    }
   }

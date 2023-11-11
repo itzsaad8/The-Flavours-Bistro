@@ -27,11 +27,11 @@ const SelfCateringFood = () => {
             {/* ..................... */}
             <div className="post-1 my-4">
                 <div className="container-fluid">
-                    <div className="row">
-                        <div className="col-lg-6 col-10">
-                            <img className='post1-img img-fluid' src={img1} alt="" />
+                    <div className="row post1_row">
+                        <div className="col-lg-6 col-12 d-flex">
+                            <img className='post1-img ' src={img1} alt="" />
                         </div>
-                        <div className="col-lg-6 col-12">
+                        <div className="col-lg-6 col-12 order-sm-1">
                             <div className="custom-post1">
                                 <p className='post1-heading'>TAKE THE STRESS OUT OF COOKING ON YOUR HOLIDAY</p>
                                 <p className='post1-para'>There are two different styles the food can be delivered in. The ‘Oven Ready’ & ‘Plate Ready’ Oven ready means we get all the food cooked, seasoned, all ready in the service tubs, ready for you to warm through at your convenience. All you do is place the tubs straight into your preheated oven and heat for the time displayed on the accompanying advisory heating sheet provided with the food</p>
@@ -55,8 +55,8 @@ const SelfCateringFood = () => {
                                 <button className='btn btn-outline-secondary  rounded-0 post1-btn'>CONTACT US</button>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-10">
-                            <img className='post1-img img-fluid' src={img1} alt="" />
+                        <div className="col-lg-6 col-12 d-flex">
+                            <img className='post1-img ' src={img1} alt="" />
                         </div>
                     </div>
                 </div>
@@ -66,9 +66,9 @@ const SelfCateringFood = () => {
                 <div className="container">
                     <div className="heading-form-cat text-center">
                     <p className=''>CONTACT US</p>
-                    <p className=''>07975 553654</p>
+                    <p className=''>01416 111531</p>
                     </div>
-                    <div className="row">
+                    <div className="row mt-3">
                         <div className="col-lg-4 col-sm-12">
                             <span>Name:</span>
                             <input className='form-control border-0 rounded-0  border-bottom border-1 border-dark mt-2 py-2' type="text" />

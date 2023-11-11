@@ -24,13 +24,13 @@ const ContactUs = () => {
             <div className="col-lg-6 col-12  text-center">
               <h3 className='contact-det-h'>Contact details</h3>
               <h5 className=''>call us</h5>
-              <p className='m-0'>07975 553654</p>
-              <p>07928 486245</p>
+              <p className='m-0'>01416111531</p>
+              
               <h5 className='my-2'>Email us</h5>
-              <p className='m-0'>example2222@gmail.com</p>
+              <p className='m-0'>clearbusinessbyadrian@gmail.com</p>
               <h5 className='my-2'>Find us</h5>
               <p className='m-0'>The Flavours bistro</p>
-              <p className='m-0'>Unit 19 Withybush Trading Est Withybush Rd, Haverfordwest, SA62 4BS</p>
+              <p className='m-0'>Grosvenor Buildings, Wynnstay Rd, Ruthin LL15 1AS, UK</p>
               <h5 className='my-2'>Business hours</h5>
               <div className="hours d-flex align-items-center justify-content-center">
                 <div className="left">
@@ -40,14 +40,14 @@ const ContactUs = () => {
                   <p>Sunday</p>
                 </div>
                 <div className="right ms-3">
-                  <p>Closed</p>
-                  <p>12pm </p>
-                  <p>12pm</p>
-                  <p>Closed</p>
+                  <p>1pm - 11am</p>
+                  <p>1pm - 11am</p>
+                  <p>1pm - 11am</p>
+                  <p>1pm - 11am</p>
                 </div>
               </div>
               <h5 className='mt-3'>Find us on 'add to event'</h5>
-              <a className='text-decoration-none' href="">https://www.addtoevent.co.uk/</a>
+              <a className='text-decoration-none' href="">clearbusinessbyadrian@gmail.com</a>
 
 
 
@@ -91,11 +91,12 @@ const ContactUs = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-12 text-center">
-            <iframe className='text-center' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d155.41981720582396!2d-0.10563745517329526!3d51.44498957803293!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876040e229c83cd%3A0x7ca6a9bc694d3217!2s259%20Norwood%20Rd%2C%20Norwood%2C%20London%20SE24%209AG%2C%20UK!5e0!3m2!1sen!2s!4v1699626258053!5m2!1sen!2s" width="100%" height="360" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe className='text-center' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2394.7841350954504!2d-3.3084185!3d53.1140682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4865333df372144b%3A0x9d24146c4bd3cbd7!2sGrosvenor%20Buildings%2C%20Wynnstay%20Rd%2C%20Ruthin%20LL15%201AS%2C%20UK!5e0!3m2!1sen!2s!4v1699701029844!5m2!1sen!2s" width="100%" height="360" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
     </>
+    // <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2394.7841350954504!2d-3.3084185!3d53.1140682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4865333df372144b%3A0x9d24146c4bd3cbd7!2sGrosvenor%20Buildings%2C%20Wynnstay%20Rd%2C%20Ruthin%20LL15%201AS%2C%20UK!5e0!3m2!1sen!2s!4v1699701029844!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   )
 }
 

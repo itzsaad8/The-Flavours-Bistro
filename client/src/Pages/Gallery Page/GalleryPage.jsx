@@ -19,7 +19,7 @@ const GalleryPage = () => {
             <ImagesSection/>
 
             <ContactSection title={"Contact Us"} 
-                            phoneNum={"07975 553654"}
+                            phoneNum={"01416 111531"}
              />
 
             

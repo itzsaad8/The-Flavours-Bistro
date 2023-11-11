@@ -1,5 +1,5 @@
-.hero-sec{
-    background:rgba(156, 157, 159, 0.767) url('../../asset/SelfCatFood/food-bg.avif');
+.hero-sec {
+    background: rgba(156, 157, 159, 0.767) url('../../asset/SelfCatFood/food-bg.avif');
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: color-burn;
@@ -8,17 +8,20 @@
     align-items: center;
     justify-content: center;
 }
-.custom-h{
+
+.custom-h {
     font-family: "Shadows Into Light";
     font-size: 65px;
     line-height: 98px;
 }
-.para{
+
+.para {
     font-family: 'Jost';
     font-size: 17px;
     font-weight: 400;
 }
-.custom-btn{
+
+.custom-btn {
     font-family: 'Jost';
     font-size: 13px;
     font-style: normal;
@@ -28,11 +31,13 @@
     background-color: white;
     border: 2px solid gray;
 }
-.custom-btn:hover{
-  color: white;
-  background-color: black;
+
+.custom-btn:hover {
+    color: white;
+    background-color: black;
 }
-.custom-post1{
+
+.custom-post1 {
     width: 85%;
     height: 95vh;
     display: flex;
@@ -41,13 +46,13 @@
     justify-content: center;
 }
 
-.post1-img{
+.post1-img {
     height: 95vh;
-     width: 100%; 
-
+    width: 100%;
 
 }
-.post1-heading{
+
+.post1-heading {
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
@@ -55,7 +60,8 @@
     font-size: 35px;
     color: #343b45;
 }
-.post1-para{
+
+.post1-para {
     font-family: 'Jost';
     font-size: 17px;
     line-height: 26px;
@@ -63,8 +69,9 @@
     font-weight: 400;
     color: #494949;
 }
-.post1-btn{
-    
+
+.post1-btn {
+
     /* width: 180px; */
     margin-right: auto;
     font-family: 'Jost';
@@ -76,11 +83,13 @@
     background-color: white;
     border: 2px solid gray;
 }
-.post1-btn:hover{
+
+.post1-btn:hover {
     color: white;
     background-color: rgb(98, 125, 100);
 }
-.heading-form-cat{
+
+.heading-form-cat {
     font-family: 'Oswald';
     font-size: 35px;
     line-height: 53px;
@@ -92,49 +101,57 @@
 }
 
 @media (max-width:599px) {
-    .custom-post1{
+    .custom-post1 {
         /* display: block; */
         /* flex-direction: column; */
         margin-left: 30px;
         padding: 0 0;
         margin-top: 3px;
     }
-    .post1-img{
+
+    .post1-img {
         height: 50vh;
         width: 98%;
         margin-left: 30px;
     }
-    .post1-btn{
+
+    .post1-btn {
         margin-top: 3px;
         width: 100%;
         padding: 5px 25px;
         font-size: 10px;
 
     }
-    .custom-h{
+
+    .custom-h {
         font-size: 30px;
         line-height: 40px;
     }
-    .custom-btn{
+
+    .custom-btn {
         font-size: 8px;
         padding: 11px 50px;
     }
-    .para{
+
+    .para {
         font-size: 12px;
     }
-    .post1-heading{
-        
-       
+
+    .post1-heading {
+
+
         line-height: 25px;
         font-size: 16px;
     }
-    .post1-para{
-        
-       
+
+    .post1-para {
+
+
         line-height: 13px;
         font-size: 10px;
     }
-    .heading-form-cat{
+
+    .heading-form-cat {
         font-size: 15px;
         line-height: 15px;
         margin: 0;
@@ -144,10 +161,45 @@
         border-bottom: 1px solid black;
 
     }
-    .button-last{
+
+    .button-last {
         padding: 8px 5px;
-        
+
     }
 
-    
-  }
+
+}
+
+@media (max-width: 768px) {
+    .post1_row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    /* div.container.custom-post1{
+        margin-top: -110px;
+    }
+    img.post1-img{
+        margin: 0px;
+        margin-top: -190px;
+    }
+    p.post1-heading{
+        margin: 0px;
+        margin-top: -90px;
+        text-align: center;
+    } */
+    .post1-heading{
+        margin-top: -200px ;
+    }
+    .post1-img{
+        margin-top: -150px;
+    }
+    .heading-form-cat{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .heading-form-cat p{
+        font-size: 20px;
+        /* margin-top: -20px; */
+    }
+}

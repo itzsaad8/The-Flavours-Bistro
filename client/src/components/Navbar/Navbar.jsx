@@ -7,6 +7,7 @@ export default function Navbar() {
     const [scrollClass,setScrollClass] = useState('bg-dark');
     const [scrollClass2,setScrollClass2] = useState('menu');
     const [scrollClass3,setScrollClass3] = useState('bookNow');
+    const [scrollClass4,setScrollClass4] = useState('bar');
     const toggleNav = () => {
         setIsNavActive(!isNavActive);
         
@@ -17,12 +18,14 @@ export default function Navbar() {
               setScrollClass('bg-white');
               setScrollClass2('menu2');
               setScrollClass3('bookNow2')
+              setScrollClass4('bar2')
               
         }
         else{
             setScrollClass("bg-dark")
             setScrollClass2('menu');
-            setScrollClass3('bookNow')
+            setScrollClass3('bookNow');
+            setScrollClass4('bar')
         }
     })
     //     const [scrollY, setScrollY] = useState(0);
@@ -79,9 +82,9 @@ export default function Navbar() {
                                     </a>
                                 </div>
                                 <div className="menu-toggle" id="menu-toggle" onClick={toggleNav}>
-                                    <div className="bar"></div>
-                                    <div className="bar"></div>
-                                    <div className="bar"></div>
+                                    <div className={` ${scrollClass4}`}></div>
+                                    <div className={` ${scrollClass4}`}></div>
+                                    <div className={` ${scrollClass4}`}></div>
                                 </div>
                                 <ul className={`nav-links ${isNavActive ? 'active' : ''} `} id="nav-links">
                                     <li><Link className={`${scrollClass2}`} test to="/">Home</Link></li>

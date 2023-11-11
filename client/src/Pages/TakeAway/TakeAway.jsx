@@ -71,7 +71,7 @@ const TakeAway = () => {
                 <div className="container">
                     <div className="heading-form-cat text-center">
                     <p className=''>CONTACT US</p>
-                    <p className=''>07975 553654</p>
+                    <p className=''>01416 111531</p>
                     </div>
                     <div className="row">
                         <div className="col-lg-4 col-sm-12">
